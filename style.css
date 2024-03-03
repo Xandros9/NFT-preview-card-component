@@ -1,0 +1,150 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: hsl(217, 54%, 11%);
+    
+}
+
+main{
+    width: 100%;
+    max-width: 1440px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container{
+    width: auto;
+    height: auto;
+
+}
+
+.preview-card{
+    position: relative;
+    width: 350px;
+    background:hsl(216, 50%, 16%);
+    padding:23.6px;  
+    margin: 95px 0;
+  border-radius: 15px;
+}
+
+.preview-card .equilibrium{
+    width: 302px;
+    height: 302px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.equilibrium:hover {
+    background-color: hsla(178, 100%, 50%, 0.445);
+    cursor: pointer;
+    background-image: url(images/icon-view.svg);
+    background-size: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.preview-card h1{
+    font-family: "Outfit",sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    margin-top:24px ;
+    cursor: pointer;
+}
+
+.preview-card h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.preview-card .preview-contant{
+    font-family:"Outfit",sans-serif ;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    margin-top: 19px;
+}
+
+.kaal{
+    display: flex;
+    align-items: center;
+    margin: 28px 0;
+    margin-bottom: 0;
+    border-bottom: solid 1px hsl(215, 32%, 27%);
+    padding-bottom: 23px;
+}
+
+.preview-card .ETH{
+    margin: 0;
+    padding-right:8px ;
+}
+
+.preview-card .ETH-num{
+    font-family: "Outfit",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(178, 100%, 50%);
+    margin-right: 7rem;
+     
+
+}
+
+.ETH-time{
+    padding-right: 7px;
+}
+
+.ETH-day{
+    font-family: "Outfit",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    margin-right: 0;
+}
+
+.Creation{
+    display: flex;
+    align-items: center;
+   margin: 0;
+   margin-top: 16px;
+   padding-bottom: 9px;
+}
+
+.avatar {
+    width: 33px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 17px;
+}
+
+.user{
+    font-family: "Outfit",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+
+.user span{
+    color: white;
+    word-spacing: 2px;
+}
+
+.user span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
